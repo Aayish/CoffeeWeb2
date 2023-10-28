@@ -96,3 +96,105 @@ nav {
 li {
     /* border : 1px solid black; */
 }
+
+.collection{
+    border: 1px solid green;
+    margin: 25px auto;
+}
+
+.collection > p{
+    font-size: 75px;
+    text-align: center;
+    
+}
+
+.card-container {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+}
+.card {
+    /* background-color: antiquewhite; */
+    /* border: 1px dotted red; */
+    
+    max-width: 280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.card > p   {
+    /* border: 1px dotted black; */
+    padding: 0 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.card > img {
+    height: 200px;
+    /* padding: 500px auto; */
+    /* border: 1px dotted blue; */
+    margin-bottom: 00px;
+}
+.card > p:first-of-type {
+   font-weight: bolder;
+   font-size: 20px;
+} 
+.card > p:nth-of-type(2){
+    /* background-color: #0E8784; */
+    /* width: 50px;; */
+    min-height: 60px;
+}
+
+.card * {
+    /* border : 1px solid blue; */
+}
+
+.whyus{
+    border: 1px solid blue;
+    max-width : 1280px;
+    height :400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    
+
+}
+.whyus p:nth-of-type(1) {
+    max-width: 600px;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+.whyus h2 {
+    margin-top: 50px;;
+}
+
+.gift.card-container .card {
+    background-color: #0E8784;
+    /* justify-content: space-between; */
+    margin: 0 50px;
+    height: 300px;
+    width : 280px;
+    border-radius: 5px;
+}
+.gift {
+    position: absolute;
+    /* background-color: antiquewhite; */
+    top: 280px;
+}
+
+.whyus-container {
+    position: relative;
+}
+
+.howitworks{
+    margin-top: 300px;
+}
